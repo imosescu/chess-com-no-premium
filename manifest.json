@@ -1,0 +1,11 @@
+{
+  "name": "chessdotcom-anti-premium",
+  "version": "1.0",
+  "description": "Block the chess.com premium offers",
+  "manifest_version": 2,
+  
+  "content_scripts": [{
+    "js": ["jquery.min.js", "jquery.livequery.min.js", "funcs.js"],
+    "matches": ["https://www.chess.com/*"]
+  }]
+}
