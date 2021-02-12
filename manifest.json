@@ -6,6 +6,6 @@
   
   "content_scripts": [{
     "js": ["jquery.min.js", "jquery.livequery.min.js", "funcs.js"],
-    "matches": ["https://www.chess.com/*"]
+    "matches": ["https://www.chess.com/analysis/game/live/*"]
   }]
 }
